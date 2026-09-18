@@ -1,0 +1,533 @@
+[
+  {
+    "id": "remera1",
+    "nombre": "Remera Honda CRF 250",
+    "categoria": "remeras",
+    "precio": 30000,
+    "imagen": "img/remera1.jpg",
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 10
+  },
+  {
+    "id": "remera2",
+    "nombre": "Remera Ferrari F40",
+    "categoria": "remeras",
+    "precio": 30000,
+    "imagen": "img/remera2.jpg",
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 10
+  },
+  {
+    "id": "remera3",
+    "nombre": "Remera Alpinestars",
+    "categoria": "remeras",
+    "precio": 30000,
+    "imagen": "img/remera3.jpg",
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 10
+  },
+  {
+    "id": "remera4",
+    "nombre": "Remera Yamaha YZ",
+    "categoria": "remeras",
+    "precio": 30000,
+    "imagen": "img/remera4.jpg",
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 10
+  },
+  {
+    "id": "remera5",
+    "nombre": "Remera BMW Performance",
+    "categoria": "remeras",
+    "precio": 30000,
+    "imagen": "img/remera5.jpg",
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 10
+  },
+  {
+    "id": "remera6",
+    "nombre": "Remera Kawasaki Racing",
+    "categoria": "remeras",
+    "precio": 30000,
+    "imagen": "img/remera6.jpg",
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 10
+  },
+  {
+    "id": "remera7",
+    "nombre": "Remera FORD Team",
+    "categoria": "remeras",
+    "precio": 30000,
+    "imagen": "img/remera7.jpg",
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 10
+  },
+  {
+    "id": "remera9",
+    "nombre": "Remera HONDA",
+    "categoria": "remeras",
+    "precio": 30000,
+    "imagen": "img/remera9.jpg",
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 10
+  },
+  {
+    "id": "remera10",
+    "nombre": "Remera Parejas CARS",
+    "categoria": "remeras",
+    "precio": 30000,
+    "imagen": "img/remera10.jpg",
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 10
+  },
+  {
+    "id": "remerasfox",
+    "nombre": "Remera FOX",
+    "categoria": "remeras",
+    "precio": 30000,
+    "imagen": "img/remerasfox.jpg",
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 10
+  },
+  {
+    "id": "remeravento",
+    "nombre": "Remera Vento",
+    "categoria": "remeras",
+    "precio": 30000,
+    "imagen": "img/remeraVento.jpg",
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 10
+  },
+  {
+    "id": "senna",
+    "nombre": "Remera Senna",
+    "categoria": "remeras",
+    "precio": 30000,
+    "imagen": "img/senna.jpg",
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 10
+  },
+  {
+    "id": "skyline",
+    "nombre": "Remera Nissan Skyline",
+    "categoria": "remeras",
+    "precio": 30000,
+    "imagen": "img/skyline.jpg",
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 10
+  },
+  {
+    "id": "supra",
+    "nombre": "Remera Toyota Supra",
+    "categoria": "remeras",
+    "precio": 30000,
+    "imagen": "img/supra.jpg",
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 10
+  },
+  {
+    "id": "chevy",
+    "nombre": "Remera Clásicos TC",
+    "categoria": "remeras",
+    "precio": 30000,
+    "imagen": "img/chevy.jpg",
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 10
+  },
+  {
+    "id": "rapidoyfurioso",
+    "nombre": "Remera West Choppers",
+    "categoria": "remeras",
+    "precio": 30000,
+    "imagen": "img/rapidoyfurioso.jpg",
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 10
+  },
+  {
+    "id": "challenger",
+    "nombre": "Remera Dodge Challenger",
+    "categoria": "remeras",
+    "precio": 30000,
+    "imagen": "img/challenger.jpg",
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 10
+  },
+  {
+    "id": "japondrift",
+    "nombre": "Remera Japón Drift",
+    "categoria": "remeras",
+    "precio": 30000,
+    "imagen": "img/japondrift.jpeg",
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 10
+  },
+  {
+    "id": "hotweels",
+    "nombre": "Remera Hotwheels Racing",
+    "categoria": "remeras",
+    "precio": 30000,
+    "imagen": "img/hotweels.jpeg",
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 10
+  },
+  {
+    "id": "porschedrift",
+    "nombre": "Remera Porsche Drift",
+    "categoria": "remeras",
+    "precio": 30000,
+    "imagen": "img/porschedrift.jpeg",
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 10
+  },
+  {
+    "id": "ferrari",
+    "nombre": "Remera Ferrari",
+    "categoria": "remeras",
+    "precio": 30000,
+    "imagen": "img/ferrari.jpg",
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 10
+  },
+  {
+    "id": "porscheverde",
+    "nombre": "Remera Porsche",
+    "categoria": "remeras",
+    "precio": 30000,
+    "imagen": "img/porscheverde.jpg",
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 10
+  },
+  {
+    "id": "porschegris",
+    "nombre": "Remera Porsche",
+    "categoria": "remeras",
+    "precio": 30000,
+    "imagen": "img/porschegris.jpg",
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 10
+  },
+  {
+    "id": "ayrtonsenna",
+    "nombre": "Remera Senna",
+    "categoria": "remeras",
+    "precio": 30000,
+    "imagen": "img/ayrtonsenna.jpeg",
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 10
+  },
+  {
+    "id": "colapinto",
+    "nombre": "Remera Colapinto",
+    "categoria": "remeras",
+    "precio": 30000,
+    "imagen": "img/colapinto.jpeg",
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 10
+  },
+  {
+    "id": "falcon",
+    "nombre": "Remera Clasicos TC",
+    "categoria": "remeras",
+    "precio": 30000,
+    "imagen": "img/falcon.jpg",
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 10
+  },
+  {
+    "id": "redbull",
+    "nombre": "Remera redbull",
+    "categoria": "remeras",
+    "precio": 30000,
+    "imagen": "img/redbull.jpeg",
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 10
+  },
+  {
+    "id": "hondatornado",
+    "nombre": "Remera Honda Tornado",
+    "categoria": "remeras",
+    "precio": 30000,
+    "imagen": "img/hondatornado.jpg",
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 10
+  },
+  {
+    "id": "marcmarquez",
+    "nombre": "Remera Marc Marquez",
+    "categoria": "remeras",
+    "precio": 30000,
+    "imagen": "img/marcmarquez.jpg",
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 10
+  },
+  {
+    "id": "alpinestars",
+    "nombre": "Remera Alpinestars",
+    "categoria": "remeras",
+    "precio": 30000,
+    "imagen": "img/alpinestars.jpg",
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 10
+  },
+  {
+    "id": "topyamaha",
+    "nombre": "Crop Top Yamaha",
+    "categoria": "croptops",
+    "precio": 28000,
+    "imagen": "img/topyamaha.jpg",
+    "talles": [],
+    "stock": 10
+  },
+  {
+    "id": "topalpinestars",
+    "nombre": "Crop Top Alpinestars",
+    "categoria": "croptops",
+    "precio": 28000,
+    "imagen": "img/topalpinestars.jpg",
+    "talles": [],
+    "stock": 10
+  },
+  {
+    "id": "topfox",
+    "nombre": "Crop Top Fox",
+    "categoria": "croptops",
+    "precio": 28000,
+    "imagen": "img/topfox.jpg",
+    "talles": [],
+    "stock": 10
+  },
+  {
+    "id": "tophonda",
+    "nombre": "Crop Top Honda",
+    "categoria": "croptops",
+    "precio": 28000,
+    "imagen": "img/tophonda.jpg",
+    "talles": [],
+    "stock": 10
+  },
+  {
+    "id": "topmonster",
+    "nombre": "Crop Top Monster",
+    "categoria": "croptops",
+    "precio": 28000,
+    "imagen": "img/topmonster.jpg",
+    "talles": [],
+    "stock": 10
+  },
+  {
+    "id": "tophondarosa",
+    "nombre": "Crop Top Honda",
+    "categoria": "croptops",
+    "precio": 28000,
+    "imagen": "img/tophondarosa.jpg",
+    "talles": [],
+    "stock": 10
+  },
+  {
+    "id": "termo",
+    "nombre": "Termo Stanley",
+    "categoria": "accesorios",
+    "precio": 85000,
+    "imagen": "img/termo.jpg",
+    "talles": [],
+    "stock": 10
+  },
+  {
+    "id": "jarra1",
+    "nombre": "Jarras Stanley",
+    "categoria": "accesorios",
+    "precio": 50000,
+    "imagen": "img/jarra1.jpg",
+    "talles": [],
+    "stock": 10
+  },
+  {
+    "id": "jarraimpresa",
+    "nombre": "Jarras escuderias F1 3D",
+    "categoria": "accesorios",
+    "precio": 50000,
+    "imagen": "img/jarraimpresa.jpg",
+    "talles": [],
+    "stock": 10
+  }
+]

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Completá tus datos de envío para finalizar tu compra en Fierrero Store.">
+  <title>Finalizar compra | Fierrero Store</title>
+
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body class="pagina-simple">
+
+<main class="contenedor-pagina">
+
+  <h1>Finalizar compra</h1>
+
+  <p id="aviso-sesion" class="aviso-sesion" hidden>
+    <span id="texto-sesion"></span>
+    <a id="enlace-sesion" href="/auth/google?volver=/finalizar.html">Ingresar con Google</a>
+  </p>
+
+  <form id="formulario-pedido" class="formulario">
+
+    <label for="nombre">Nombre y apellido</label>
+    <input type="text" id="nombre" name="nombre" autocomplete="name" minlength="3" maxlength="80" required>
+
+    <label for="telefono">Teléfono</label>
+    <input type="tel" id="telefono" name="telefono" autocomplete="tel" pattern="[0-9+\(\)\s\-]{8,20}" title="Solo números, espacios, +, - y paréntesis (mínimo 8 dígitos)" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" autocomplete="email" maxlength="100" required>
+
+    <div class="fila">
+      <div>
+        <label for="ciudad">Ciudad</label>
+        <input type="text" id="ciudad" name="ciudad" autocomplete="address-level2" maxlength="60" required>
+      </div>
+      <div>
+        <label for="provincia">Provincia</label>
+        <input type="text" id="provincia" name="provincia" autocomplete="address-level1" maxlength="60" required>
+      </div>
+    </div>
+
+    <label for="direccion">Dirección</label>
+    <input type="text" id="direccion" name="direccion" autocomplete="street-address" maxlength="120" required>
+
+    <div class="resumen">
+      <div id="resumen"></div>
+      <div class="total">
+        <span>Total a pagar</span>
+        <strong id="total">$0</strong>
+      </div>
+    </div>
+
+    <p id="error" class="error" role="alert" hidden></p>
+
+    <button type="submit" id="pagar" class="btn btn-grande">Pagar con Mercado Pago</button>
+
+  </form>
+
+  <a href="carrito.html" class="volver">← Volver al carrito</a>
+
+</main>
+
+<script src="js/cart.js"></script>
+<script src="js/sesion.js"></script>
+<script src="js/checkout.js"></script>
+
+</body>
+</html>

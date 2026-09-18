@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Fierrero Store: remeras, crop tops y accesorios para apasionados de los fierros. Envíos a todo el país desde Rafaela, Santa Fe.">
+  <title>Fierrero Store</title>
+
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="logo">FIERRERO STORE</div>
+
+    <input id="buscador" class="search" type="search" placeholder="Buscar productos" aria-label="Buscar productos">
+
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="/auth/google?volver=/" id="enlace-cuenta" hidden>Ingresar</a>
+      <a href="carrito.html" class="cart-btn">🛒 MI CARRITO</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <img src="img/imagen1.jpg" alt="Banner principal de Fierrero Store">
+</section>
+
+<main class="layout">
+
+  <aside class="filters">
+    <h4>Categorías</h4>
+
+    <button class="filter-link" data-categoria="remeras">Remeras</button>
+    <button class="filter-link" data-categoria="croptops">Crop Tops</button>
+    <button class="filter-link" data-categoria="accesorios">Accesorios</button>
+    <button class="filter-link filter-link-todo" data-categoria="todas">VER TODO</button>
+  </aside>
+
+  <section class="products" id="lista-productos" aria-live="polite">
+    <p class="vacio">Cargando productos...</p>
+  </section>
+
+</main>
+
+<footer>
+  <div class="footer-content">
+    <div class="footer-section">
+      <h4>Seguinos</h4>
+      <a href="https://instagram.com/fierrero_store" target="_blank" rel="noopener">📸 @fierrero_store</a>
+      <p>Sumate a la comunidad más manija de Argentina.</p>
+    </div>
+
+    <div class="footer-section">
+      <h4>Ubicación</h4>
+      <p>📍 Rafaela, Santa Fe</p>
+      <p>El corazón fierrero del país.</p>
+    </div>
+
+    <div class="footer-section">
+      <h4>Logística</h4>
+      <p>📦 Envíos a todo el país</p>
+      <p>Trabajamos con <strong>Andreani</strong> para que tu pedido llegue a fondo.</p>
+    </div>
+
+    <div class="motive-phrase">
+      <h2>NO ES SOLO ROPA, <span>ES UNA PASIÓN QUE SE LLEVA PUESTA.</span></h2>
+      <p class="copyright">© 2026 Fierrero Store - Todos los derechos reservados.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/cart.js"></script>
+<script src="js/sesion.js"></script>
+<script src="js/catalogo.js"></script>
+
+</body>
+</html>

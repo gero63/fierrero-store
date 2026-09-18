@@ -448,7 +448,11 @@
     /* Estilo para que las categorías sean una lista vertical */
     .filter-link {
       display: block;             /* Fuerza a que ocupen toda la línea */
+      width: 100%;
       padding: 12px 0;            /* Les da espacio para que no estén pegadas */
+      background: none;           /* Se usan <button>: se les quita el estilo por defecto */
+      border: none;
+      text-align: left;
       color: var(--muted);        /* Color gris sutil */
       font-size: 14px;
       text-transform: uppercase;
@@ -456,6 +460,13 @@
       border-bottom: 1px solid #222; /* Línea divisoria entre cada una */
       cursor: pointer;
       transition: var(--transition);
+    }
+
+    .filter-link-todo {
+      margin-top: 10px;
+      font-weight: 800;
+      color: white;
+      border-bottom: none;
     }
 
     .filter-link:hover {
@@ -469,4 +480,324 @@
         padding: 20px;
         margin-bottom: 20px;
       }
+    }
+
+    /* --- CATÁLOGO: títulos de sección, mensajes y selector de talle --- */
+    .categoria-titulo {
+      grid-column: 1 / -1;
+      margin: 30px 0 10px;
+    }
+
+    .vacio {
+      grid-column: 1 / -1;
+      padding: 20px;
+      text-align: center;
+      color: var(--muted);
+    }
+
+    .size-selector label {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .copyright {
+      margin-top: 15px;
+      color: var(--muted);
+    }
+
+    .btn:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+      background: var(--primary);
+      color: #000;
+      box-shadow: none;
+    }
+
+    /* --- PÁGINAS CARRITO Y FINALIZAR COMPRA --- */
+    .pagina-simple {
+      padding: 30px 15px;
+    }
+
+    .contenedor-pagina {
+      max-width: 800px;
+      margin: auto;
+      padding: 24px;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+    }
+
+    .contenedor-pagina h1 {
+      margin-bottom: 20px;
+      font-family: 'Unbounded', sans-serif;
+      font-size: 20px;
+    }
+
+    .item {
+      display: grid;
+      grid-template-columns: 90px 1fr auto;
+      gap: 16px;
+      align-items: center;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .item img {
+      width: 90px;
+      height: 90px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .item p {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .item .price {
+      font-size: 15px;
+    }
+
+    .btn-eliminar {
+      margin-top: 6px;
+      padding: 0;
+      background: none;
+      border: none;
+      color: var(--accent);
+      font-size: 13px;
+      cursor: pointer;
+    }
+
+    .aviso {
+      color: var(--accent);
+    }
+
+    .total {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+      font-size: 18px;
+    }
+
+    .acciones {
+      display: flex;
+      gap: 12px;
+      margin-top: 20px;
+    }
+
+    .acciones .btn {
+      flex: 1;
+      margin-top: 0;
+      padding: 14px;
+    }
+
+    .btn-secundario {
+      background: transparent;
+      color: var(--text);
+      border: 1px solid var(--text);
+    }
+
+    .carrito-vacio {
+      padding: 40px 10px;
+      text-align: center;
+    }
+
+    .carrito-vacio-icono {
+      margin-bottom: 16px;
+      font-size: 56px;
+      line-height: 1;
+    }
+
+    .carrito-vacio h2 {
+      margin-bottom: 8px;
+      font-family: 'Unbounded', sans-serif;
+      font-size: 16px;
+    }
+
+    .carrito-vacio p {
+      margin-bottom: 24px;
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    .carrito-vacio .btn {
+      display: inline-block;
+      padding: 14px 32px;
+    }
+
+    .formulario label {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .formulario input {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 16px;
+      background: #1a1a1a;
+      color: white;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      font-size: 14px;
+    }
+
+    .formulario input:focus {
+      outline: none;
+      border-color: var(--accent);
+    }
+
+    .fila {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+
+    .resumen {
+      margin-top: 10px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+    }
+
+    .linea-resumen {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 4px 0;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .resumen .total {
+      margin-bottom: 20px;
+    }
+
+    .error {
+      margin-bottom: 16px;
+      padding: 12px;
+      border: 1px solid var(--accent);
+      border-radius: 12px;
+      color: var(--accent);
+      font-size: 14px;
+    }
+
+    .btn-grande {
+      width: 100%;
+      padding: 16px;
+      font-size: 14px;
+    }
+
+    .volver {
+      display: block;
+      margin-top: 16px;
+      text-align: center;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    @media (max-width: 600px) {
+      .item { grid-template-columns: 70px 1fr auto; }
+      .item img { width: 70px; height: 70px; }
+      .fila { grid-template-columns: 1fr; gap: 0; }
+      .acciones { flex-direction: column; }
+    }
+
+    /* --- CUENTA, PEDIDOS Y AVISO DE SESIÓN --- */
+    .aviso-sesion {
+      margin-bottom: 20px;
+      padding: 12px 14px;
+      background: #1a1a1a;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .aviso-sesion a {
+      margin-left: 6px;
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .perfil {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 24px;
+    }
+
+    .perfil img {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+    }
+
+    .perfil p {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .perfil .btn-eliminar {
+      margin: 0 0 0 auto;
+    }
+
+    .subtitulo {
+      margin-bottom: 12px;
+      font-family: 'Unbounded', sans-serif;
+      font-size: 14px;
+      color: var(--accent);
+    }
+
+    .pedido {
+      margin-bottom: 16px;
+      padding: 16px;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+    }
+
+    .pedido-cabecera {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .pedido-fecha {
+      margin-bottom: 8px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .pedido-total {
+      margin-top: 6px;
+      padding-top: 8px;
+      border-top: 1px solid var(--border);
+      color: var(--text);
+      font-weight: 700;
+    }
+
+    .estado {
+      padding: 3px 10px;
+      border-radius: 50px;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      background: #333;
+    }
+
+    .estado-pagado { background: #14532d; color: #bbf7d0; }
+    .estado-pendiente { background: #713f12; color: #fde68a; }
+    .estado-cancelado { background: #450a0a; color: #fecaca; }
+
+    .mensaje-pedido {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    a.btn-enlace {
+      display: block;
     }

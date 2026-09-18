@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Revisá los productos de tu carrito en Fierrero Store.">
+  <title>Carrito | Fierrero Store</title>
+
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body class="pagina-simple">
+
+<main class="contenedor-pagina">
+
+  <h1>🛒 Tu carrito</h1>
+
+  <div id="lista-carrito" aria-live="polite"></div>
+
+  <div id="resumen-carrito" hidden>
+    <div class="total">
+      <span>Total</span>
+      <strong id="total">$0</strong>
+    </div>
+
+    <div class="acciones">
+      <a href="index.html" class="btn btn-secundario">Seguir comprando</a>
+      <a href="finalizar.html" class="btn">Finalizar compra</a>
+    </div>
+  </div>
+
+</main>
+
+<script src="js/cart.js"></script>
+<script src="js/pagina-carrito.js"></script>
+
+</body>
+</html>
